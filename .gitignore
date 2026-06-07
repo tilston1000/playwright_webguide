@@ -1,0 +1,21 @@
+# Build output
+**/bin/
+**/obj/
+
+# Test output
+**/TestResults/
+*.trx
+
+# User/IDE files
+.vs/
+.vscode/
+*.user
+*.suo
+
+# Playwright artifacts and browsers downloaded in build output
+**/playwright-traces/
+**/.playwright/
+
+# OS noise
+.DS_Store
+Thumbs.db
